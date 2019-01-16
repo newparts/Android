@@ -28,7 +28,7 @@ public class StepDetector {
         currentAccel[0] = x;
         currentAccel[1] = y;
         currentAccel[2] = z;
-        
+
         accelRingCounter++;
         accelRingX[accelRingCounter % ACCEL_RING_SIZE] = currentAccel[0];
         accelRingY[accelRingCounter % ACCEL_RING_SIZE] = currentAccel[1];
