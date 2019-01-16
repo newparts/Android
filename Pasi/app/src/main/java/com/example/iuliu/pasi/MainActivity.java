@@ -1,9 +1,15 @@
 package com.example.iuliu.pasi;
 
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements SensorEventListener, StepListener {
+public abstract class MainActivity extends AppCompatActivity implements SensorEventListener, StepListener {
     private TextView textView;
     private StepDetector simpleStepDetector;
     private SensorManager sensorManager;
@@ -17,12 +23,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         setContentView(R.layout.activity_main);
     }
 
-    sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+    sensorManager
+    = (SensorManager) getSystemService(SENSOR_SERVICE SensorManager sensorManager);
     accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
     simpleStepDetector = new StepDetector();
     simpleStepDetector.registerListener(this);
 
-    TvSteps = (TextView) findViewById(R.id.tv_steps);
+    TvSteps = (TextView) abstract findViewById(R.id.tv_steps);
     BtnStart = (Button) findViewById(R.id.btn_start);
     BtnStop = (Button) findViewById(R.id.btn_stop);
 
