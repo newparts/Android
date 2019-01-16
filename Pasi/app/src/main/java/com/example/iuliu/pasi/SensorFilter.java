@@ -1,3 +1,5 @@
+package com.example.iuliu.pasi;
+
 public class SensorFilter {
 
     private SensorFilter() {
