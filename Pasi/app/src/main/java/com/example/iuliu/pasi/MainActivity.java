@@ -14,17 +14,19 @@ public abstract class MainActivity extends AppCompatActivity implements SensorEv
     private StepDetector simpleStepDetector;
     private SensorManager sensorManager;
     private Sensor accel;
-    private static final String TEXT_NUM_STEPS = "Number of Steps: ";
+    private static final String TEXT_NUM_STEPS = "Numarul de pasi: ";
     private int numSteps;
+
+    TextView TvSteps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TvSteps = (TextView) findViewById(R.id.tv_steps);
     }
 
-    sensorManager
-    = (SensorManager) getSystemService(SENSOR_SERVICE SensorManager sensorManager);
+    sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE SensorManager sensorManager);
     accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
     simpleStepDetector = new StepDetector();
     simpleStepDetector.registerListener(this);
