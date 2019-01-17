@@ -16,6 +16,8 @@ public abstract class MainActivity extends AppCompatActivity implements SensorEv
     private Sensor accel;
     private static final String TEXT_NUM_STEPS = "Numarul de pasi: ";
     private int numSteps;
+    private Button BtnStart;
+    private Button BtnStop;
 
     TextView TvSteps;
 
