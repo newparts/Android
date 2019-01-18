@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // declaram prorpietatile de care avem nevoie in aplicatie
     private TextView txt;
     private SensorManager sensorManager;
     private Sensor pressureSensor;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onSensorChanged(SensorEvent sensorEvent) {
+            //preluam datele ca text
             float[] values = sensorEvent.values;
             txt.setText(String.format("%.3f mbar", values[0]));
         }
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // apelam SensorManager de unde preluam constanta Sensor_service si variabila Presiune
         txt = findViewById(R.id.txt);
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         pressureSensor = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
@@ -37,10 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        // preluam notificarile cand se schimba datele preluate de la senzor
         super.onResume();
         sensorManager.registerListener(sensorEventListener, pressureSensor, SensorManager.SENSOR_DELAY_UI);
     }
 
+    // punem pe pauza ascultarea senzorului cand aplicatia este oprita
     @Override
     protected void onPause() {
         super.onPause();
