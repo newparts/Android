@@ -6,6 +6,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -20,12 +21,12 @@ public abstract class MainActivity extends AppCompatActivity implements SensorEv
     private Button BtnStop;
 
     TextView TvSteps;
-
+    TvSteps = (TextView) findViewById(R.id.tv_steps);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TvSteps = (TextView) findViewById(R.id.tv_steps);
+
     }
 
     sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE SensorManager sensorManager);
@@ -39,7 +40,7 @@ public abstract class MainActivity extends AppCompatActivity implements SensorEv
 
 
 
-    BtnStart.setOnClickListener(new OnClickListener() {
+    BtnStart.setOnClickListener(new View.OnClickListener() {
 
         @Override
         public void onClick(View arg0) {
@@ -51,7 +52,7 @@ public abstract class MainActivity extends AppCompatActivity implements SensorEv
     });
 
 
-    BtnStop.setOnClickListener(new OnClickListener() {
+    BtnStop.setOnClickListener(new View.OnClickListener() {
 
         @Override
         public void onClick(View arg0) {
