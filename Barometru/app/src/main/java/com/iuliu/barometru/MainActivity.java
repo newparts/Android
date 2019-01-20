@@ -1,54 +1,51 @@
 package com.iuliu.barometru;
 
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.TextView;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
-    // declaram prorpietatile de care avem nevoie in aplicatie
-    private TextView txt;
-    private SensorManager sensorManager;
-    private Sensor pressureSensor;
-    private SensorEventListener sensorEventListener = new SensorEventListener() {
+        private TextView txt;
+        private SensorManager sensorManager;
+        private Sensor pressureSensor;
+        private SensorEventListener sensorEventListener = new SensorEventListener() {
+
+            @Override
+            public void onSensorChanged(SensorEvent sensorEvent) {
+                float[] values = sensorEvent.values;
+                txt.setText(String.format("%.3f mbar", values[0]));
+            }
+
+            @Override
+            public void onAccuracyChanged(Sensor sensor, int i) {
+            }
+        };
 
         @Override
-        public void onSensorChanged(SensorEvent sensorEvent) {
-            //preluam datele ca text
-            float[] values = sensorEvent.values;
-            txt.setText(String.format("%.3f mbar", values[0]));
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+            txt = findViewById(R.id.txt);
+            sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+            pressureSensor = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
         }
 
         @Override
-        public void onAccuracyChanged(Sensor sensor, int i) {
+        protected void onResume() {
+            super.onResume();
+            sensorManager.registerListener(sensorEventListener, pressureSensor, SensorManager.SENSOR_DELAY_UI);
         }
-    };
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        // apelam SensorManager de unde preluam constanta Sensor_service si variabila Presiune
-        txt = findViewById(R.id.txt);
-        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-        pressureSensor = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
-    }
-
-    @Override
-    protected void onResume() {
-        // preluam notificarile cand se schimba datele preluate de la senzor
-        super.onResume();
-        sensorManager.registerListener(sensorEventListener, pressureSensor, SensorManager.SENSOR_DELAY_UI);
-    }
-
-    // punem pe pauza ascultarea senzorului cand aplicatia este oprita
-    @Override
-    protected void onPause() {
-        super.onPause();
-        sensorManager.unregisterListener(sensorEventListener);
-    }
+        @Override
+        protected void onPause() {
+            super.onPause();
+            sensorManager.unregisterListener(sensorEventListener);
+        }
 }
