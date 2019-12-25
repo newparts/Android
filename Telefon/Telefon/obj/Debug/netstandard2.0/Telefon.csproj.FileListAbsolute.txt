@@ -1,0 +1,12 @@
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\bin\Debug\netstandard2.0\Telefon.deps.json
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\bin\Debug\netstandard2.0\Telefon.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\bin\Debug\netstandard2.0\Telefon.pdb
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.csprojAssemblyReference.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.csproj.CoreCompileInputs.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.AssemblyInfoInputs.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.AssemblyInfo.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\Telefon\Telefon\obj\Debug\netstandard2.0\Telefon.pdb
