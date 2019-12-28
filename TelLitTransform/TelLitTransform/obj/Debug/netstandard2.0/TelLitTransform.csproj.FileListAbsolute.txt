@@ -1,0 +1,12 @@
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\bin\Debug\netstandard2.0\TelLitTransform.deps.json
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\bin\Debug\netstandard2.0\TelLitTransform.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\bin\Debug\netstandard2.0\ref\TelLitTransform.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\bin\Debug\netstandard2.0\TelLitTransform.pdb
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\TelLitTransform.csprojAssemblyReference.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\TelLitTransform.AssemblyInfoInputs.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\TelLitTransform.AssemblyInfo.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\TelLitTransform.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\ref\TelLitTransform.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Android\TelLitTransform\TelLitTransform\obj\Debug\netstandard2.0\TelLitTransform.pdb
