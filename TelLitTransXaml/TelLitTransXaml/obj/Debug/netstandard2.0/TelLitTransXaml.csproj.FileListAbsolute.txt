@@ -1,0 +1,4 @@
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.csprojAssemblyReference.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.AssemblyInfoInputs.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.AssemblyInfo.cs
