@@ -1,0 +1,13 @@
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\bin\Debug\netstandard2.0\TelLitTransXaml.deps.json
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\bin\Debug\netstandard2.0\TelLitTransXaml.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\bin\Debug\netstandard2.0\ref\TelLitTransXaml.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\bin\Debug\netstandard2.0\TelLitTransXaml.pdb
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.csprojAssemblyReference.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.AssemblyInfoInputs.cache
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.AssemblyInfo.cs
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\ref\TelLitTransXaml.dll
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\TelLitTransXaml.pdb
+C:\Users\iuliu\Desktop\newparts.github.io\Mobile\TelLitTransXaml\TelLitTransXaml\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
